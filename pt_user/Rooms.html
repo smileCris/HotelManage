@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title></title>
+		<meta charset="utf-8">
+    	<link rel="icon" type="image/png" href="images/favicon.png">
+		<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+		<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+		<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+		<script type="text/javascript" src="js/jquery-1.6.js" ></script>
+		<script type="text/javascript" src="js/jquery.jqtransform.js" ></script>
+	</head>
+	<body id="page4">
+		<div class="bg1">
+			<div class="bg2">
+				<div class="main">
+<!-- header -->
+					<header>
+						<h1><a href="index.html" id="logo">LoungeHotel</a></h1>
+					</header>
+						<nav>
+							<ul id="menu">
+								<li><a href="index.html">关于我们</a></li>
+								<li><a href="Services.html">服务内容</a></li>
+								<li class="last active"><a href="Rooms.html">房间展示</a></li>
+							</ul>
+						</nav>
+<!-- header end -->
+<!-- content -->
+						<article id="content">
+							<div class="box1">
+								<div class="wrapper">
+									<form action="#" id="form1">
+										<img src="images/img1.jpg">
+									</form>
+									<div class="col2 pad">
+										<h2><img src="images/title_marker1.jpg" alt="">房间展示</h2>
+										<div class="wrapper line1">
+											<div class="col3">
+												<figure class="pad_bot3"><img src="images/page3_img1.jpg" alt=""></figure>
+												<p class="pad_bot1"><strong class="color3">普通套房</strong></p>
+												<p>设施齐全，适合2~4人入住</p>
+												<ul class="list2">
+													<li><span>2</span>房间</li>
+													<li><span>2</span>床</li>
+												</ul>
+												<a class="button2 book">预定</a>
+											</div>
+											<div class="col3 pad_left2">
+												<figure class="pad_bot3"><img src="images/page3_img4.jpg" alt=""></figure>
+												<p class="pad_bot1"><strong class="color3">VIP套房</strong></p>
+												<p>设施齐全，适合2~4人居住</p>
+												<ul class="list2">
+													<li><span>2</span>房间</li>
+													<li><span>4</span>床</li>
+												</ul>
+												<a class="button2 book">预定</a>
+											</div>
+										</div>
+										<div class="wrapper line1">
+											<div class="col3">
+												<p class="pad_bot1"><strong class="color3">VIP套房</strong></p>
+												<ul class="list2">
+													<li><span>1</span>房间</li>
+													<li><span>1</span>床</li>
+												</ul>
+												<a class="button2 book">预定</a>
+											</div>
+											<div class="col3 pad_left2">
+												<p class="pad_bot1"><strong class="color3">高级套房</strong></p>
+												<ul class="list2">
+													<li><span>2</span>房间</li>
+													<li><span>4</span>床</li>
+												</ul>
+												<a class="button2 book">预定</a>
+											</div>
+										</div>
+										<div class="wrapper line1">
+											<div class="col3">
+												<p class="pad_bot1"><strong class="color3">高级套房</strong></p>
+												<ul class="list2">
+													<li><span>2</span>房间</li>
+													<li><span>2</span>床</li>
+												</ul>
+												<a class="button2 book">预定</a>
+											</div>
+											<div class="col3 pad_left2">
+												<p class="pad_bot1"><strong class="color3">总统套房</strong></p>
+												<ul class="list2">
+													<li><span>2</span>房间</li>
+													<li><span>2</span>床</li>
+												</ul>
+												<a class="button2 book">预定</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</article>
+<!--content end-->
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="main">
+<!-- footer -->
+			<footer>
+				<div class="col2">
+					Lounge Hotel &copy; 版权所有
+					<nav>
+						<ul id="footer_menu">
+							<li><a href="index.html">关于我们</a></li>
+							<li><a href="Services.html">服务内容<a></li>
+							<li class="last active"><a href="Rooms.html">房间展示</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col1 pad_left1">
+					<ul id="icons">
+						<li><a href="#" class="normaltip" title="Linkedin"><img src="images/icon1.jpg" alt=""></a></li>
+						<li><a href="#" class="normaltip" title="Facebook"><img src="images/icon2.jpg" alt=""></a></li>
+						<li><a href="#" class="normaltip" title="Picasa"><img src="images/icon3.jpg" alt=""></a></li>
+						<li><a href="#" class="normaltip" title="Twitter"><img src="images/icon4.jpg" alt=""></a></li>
+					</ul>
+				</div>				
+				<!-- {%FOOTER_LINK} -->
+			</footer>
+<!-- footer end -->
+		</div>
+    <script src="../assets/js/jquery.min.js"></script>
+    <script>
+        $('.book').on('click', function(){
+          layer.open({
+            type: 2,
+            title: '预定',
+            maxmin: true,
+            area: ['800px', '500px'],
+            content: 'Locations.html'
+          });
+        });
+    </script>
+    <script src="../assets/js/layer/layer.js"></script>
+	</body>
+</html>
