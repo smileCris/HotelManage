@@ -1,6 +1,5 @@
-﻿#nodetech
 
-### Node Tech第三次作业
+### 酒店管理系统
 
 [登录预览](https://smilecris.github.io/HotelManage/login.html) <br>
 [注册预览](https://smilecris.github.io/HotelManage/register.html) <br>
